@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @CucumberOptions (
 
-
+//add name
 				features = "src/test/resources/OrangeHRM/",
 				glue = {"steps"},
 				plugin = {"pretty","html:target/cucumber-report.html"},
